@@ -34,15 +34,24 @@
     #~
 
 # Zabbix deploy 
-    部署zaldap监控插件可以使用，插件目录自带部署脚本进行部署。
+    部署zaldap监控插件可以使用，插件目录自带部署脚本进行部署。
      
-     deploy_zabbix.sh 有三个参数：
-       第一个参数：openldap 服务器地址
-       第二个参数：openldap 监控用户
-       第一个参数：openldap 监控用户的密码
+     deploy_zabbix.sh 有三个参数：
+     
+       第一个参数：openldap 服务器地址
        
-    #~ git clone https://github.com/sergiotocalini/zaldap.git
-    #~ ./zaldap/deploy_zabbix.sh 'localhost' 'cn=monitor,ou=auth,dc=example,dc=com' 'xxxxxxxx'
-    #~
+       第二个参数：openldap 监控用户
+       
+       第一个参数：openldap 监控用户的密码
+
+      
+      
+        #~ git clone https://github.com/sergiotocalini/zaldap.git
+    
+        #~ ./zaldap/deploy_zabbix.sh 'localhost' 'cn=monitor,ou=auth,dc=example,dc=com' 'xxxxxxxx'
+    
+        #~
+    
+    
     
     
