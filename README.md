@@ -1,6 +1,6 @@
-# zaldap
+# zaldap 监控部署
 
-# 20. Monitor
+# 20. 要获取openldap的监控参数，需要开启了openldap的监控选项。有2种方法一种是通过 cn=config开启，另外一种是需要slapd.conf(需要重启openldap)
 
 ## 20.1. Monitor configuration via cn=config
 
